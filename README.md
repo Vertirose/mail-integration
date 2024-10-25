@@ -4,7 +4,7 @@ Objektid dalam projek ini adalah peserta sebagai system administrator dapat meny
 
 ## TechStack
 
-- [Nginx](https://nginx.org/en/) - Web Server Engine
+- [Apache2](https://httpd.apache.org/) - Web Server Engine
 - [PostFix](https://www.postfix.org/) - Sebagai Mail Transfer Agent
 - [Dovecot](https://www.dovecot.org/) - Sebagai Mail Delivery Agent
 - [MariaDB](https://mariadb.org/) - Database Engine
@@ -47,14 +47,14 @@ apt -y install bind9 dnsutils
 
 ### WebServer
 
-sama halnya seperti domain name system semua konfigurasi virtual host sudah dijelaskan di soal disini hanya berfokus untuk instalasi dan sample konfigurasi filenya berada [disini](/sample/nginx.conf)
+sama halnya seperti domain name system semua konfigurasi virtual host sudah dijelaskan di soal disini hanya berfokus untuk instalasi dan sample konfigurasi filenya berada [disini](/sample/apache.conf)
 
 ---
 
-untuk instalasi nginx sebagai web server engine bisa dengan melakukan perintah berikut
+untuk instalasi apache sebagai web server engine bisa dengan melakukan perintah berikut
 
 ```
-apt -y install nginx
+apt -y install apache2
 ```
 
 ### WordPress
@@ -89,8 +89,6 @@ pada mail server akan ada 3 core yang digunakan yakni `postfix` sebagai _mail tr
 ```
 apt -y install postfix dovecot-imapd dovecot-pop3d roundcube
 ```
-
-lakukan konfigurasi sesuai dengan soal dan untuk hint untuk nginx konfigurasi max file size attachment ada di file _*/fpm/php.ini*_ dan kata kuncinya adalah disini `upload_max_filesize` dan `post_max_size` :)
 
 ## Submitting
 

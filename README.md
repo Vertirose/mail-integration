@@ -90,8 +90,6 @@ pada mail server akan ada 3 core yang digunakan yakni `postfix` sebagai _mail tr
 apt -y install postfix dovecot-imapd dovecot-pop3d roundcube
 ```
 
-lakukan konfigurasi sesuai dengan soal dan untuk hint untuk nginx konfigurasi max file size attachment ada di file _*/fpm/php.ini*_ dan kata kuncinya adalah disini `upload_max_filesize` dan `post_max_size` :)
-
 ## Submitting
 
 Jika dirasa semua aspek dalam tugas ini sudah selesai, laporan berupa link Google Drive dari masing-masing peserta dapat dikirim ke 13901@smkn22jakarta.sch.id dengan subject (Penilaian Seleksi - [nama]\_[nis]). Untuk informasi lebih lengkap, silakan baca [disini](./submitting.md).

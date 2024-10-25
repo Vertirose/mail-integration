@@ -94,4 +94,4 @@ lakukan konfigurasi sesuai dengan soal dan untuk hint untuk nginx konfigurasi ma
 
 ## Submitting
 
-Untuk mengirim jika semua aspek dalam tugas ini sudah selesai dapat dikirim ke email 13901@smkn22jakarta.sch.id dengan subject (Penilaian Seleksi - [nama]\_[nis]) laporan berupa link google drive dari masing-masing peserta sesuai dengan keterangan di soal
+Jika dirasa semua aspek dalam tugas ini sudah selesai, laporan berupa link Google Drive dari masing-masing peserta dapat dikirim ke 13901@smkn22jakarta.sch.id dengan subject (Penilaian Seleksi - [nama]\_[nis]). Untuk informasi lebih lengkap, silakan baca disini.

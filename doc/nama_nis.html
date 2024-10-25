@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page - [nama]_[nis]</title>
+    <!-- Credit to Rahul C. -->
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/1024px-Circle-icons-mail.svg.png"
+    />
+    <style>
+      :root {
+        font-size: 20px;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      p:not(:last-child) {
+        margin-bottom: 1.5em;
+      }
+
+      body {
+        font: 1em/1.618 Inter, sans-serif;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-height: 100vh;
+        padding: 30px;
+        margin: 0;
+
+        color: #224;
+        background: url(https://img.freepik.com/free-vector/hand-drawn-flat-world-post-day-background_23-2149058169.jpg?t=st=1729777881~exp=1729781481~hmac=00b629283be10219fe19b4eb2ac9a450be1629c541c6dd02ea44a73f27c15f35&w=1060)
+          center / cover no-repeat fixed;
+      }
+
+      .welcard {
+        max-width: 300px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        max-width: 500px;
+        height: 300px;
+        padding: 35px;
+
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.45);
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+        backdrop-filter: blur(15px);
+      }
+
+      .welcard-footer {
+        font-size: 0.65em;
+        color: #446;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcard">
+      <p>
+        Hello and welcome!
+        <strong>Your inbox</strong> is about to get exciting—let’s dive in!
+      </p>
+      <p class="welcard-footer">
+        Created by <strong><i>[nama]_[nis]</i></strong>
+      </p>
+    </div>
+  </body>
+</html>

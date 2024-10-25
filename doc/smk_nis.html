@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page - smk[nis]</title>
+    <link
+      rel="icon"
+      href="https://png.pngtree.com/png-vector/20220630/ourmid/pngtree-polygon-brain-logo-template-png-image_5583871.png"
+    />
+    <!-- Credit to Kiberbash -->
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: rgb(22, 20, 24);
+        color: #eee;
+        user-select: none;
+      }
+
+      code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+          monospace;
+      }
+
+      .card {
+        user-select: none;
+        max-width: 300px;
+        margin: 10rem auto;
+        border: 1px solid #ffffff22;
+        background-color: #282c34;
+        background: linear-gradient(
+          0deg,
+          rgba(40, 44, 52, 1) 0%,
+          rgba(17, 0, 32, 0.5) 100%
+        );
+        box-shadow: 0 7px 20px 5px #00000088;
+        border-radius: 0.7rem;
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        overflow: hidden;
+        transition: 0.5s all;
+        ins {
+          text-decoration: none;
+        }
+        .main {
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+          padding: 1rem;
+          .image {
+            border-radius: 0.5rem;
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+          }
+          .description {
+            margin: 0.5rem 0;
+            color: #a89ec9;
+          }
+          .tokenInfo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .price {
+              display: flex;
+              align-items: center;
+              color: #ee83e5;
+              font-weight: 700;
+              ins {
+                margin-right: 0.5rem;
+              }
+            }
+          }
+        }
+        ::before {
+          position: fixed;
+          content: "";
+          box-shadow: 0 0 100px 40px #ffffff08;
+          top: -10%;
+          left: -100%;
+          transform: rotate(-45deg);
+          height: 60rem;
+          transition: 0.7s all;
+        }
+        &:hover {
+          border: 1px solid #ffffff44;
+          box-shadow: 0 7px 50px 10px #000000aa;
+          transform: scale(1.015);
+          filter: brightness(1.3);
+          ::before {
+            filter: brightness(0.5);
+            top: -100%;
+            left: 200%;
+          }
+        }
+      }
+
+      .bg {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        h1 {
+          font-size: 20rem;
+          filter: opacity(0.5);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <h1>Academy</h1>
+    </div>
+    <div class="card">
+      <div class="main">
+        <img
+          class="image"
+          src="https://img.freepik.com/free-photo/ai-nuclear-energy-background-future-innovation-disruptive-technology_53876-129783.jpg?t=st=1729779147~exp=1729782747~hmac=edc3f95e2ef645de72d66c46d6f376f0ac26da03b08b2d5105d22865fb88ce58&w=1060"
+          alt="card"
+        />
+        <h2>Artificial Intelligence</h2>
+        <p class="description">
+          Hello and welcome! Get ready to unlock the mysteries of
+          <strong>Artificial Intelligence!</strong>
+        </p>
+        <div class="tokenInfo">
+          <div class="price">
+            <ins>$</ins>
+            <p>Created by <i>[nama]_[nis]</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
